@@ -19,6 +19,11 @@ unreleased
     - perf: hoist regular expression
     - perf: use for loop in parse
     - perf: use string concatination for serialization
+  * deps: proxy-addr@~1.1.1
+    - Fix accepting various invalid netmasks
+    - IPv4 netmasks must be contingous
+    - IPv6 addresses cannot be used as a netmask
+    - deps: ipaddr.js@1.1.0
 
 4.13.4 / 2016-01-21
 ===================
