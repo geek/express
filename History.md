@@ -10,6 +10,15 @@ unreleased
     - deps: negotiator@0.6.1
   * deps: content-type@~1.0.2
     - perf: enable strict mode
+  * deps: cookie@0.2.4
+    - Add `firstPartyOnly` option
+    - Fix cookie `Max-Age` to never be a floating point number
+    - Throw better error for invalid argument to parse
+    - Throw on invalid values provided to `serialize`
+    - perf: enable strict mode
+    - perf: hoist regular expression
+    - perf: use for loop in parse
+    - perf: use string concatination for serialization
 
 4.13.4 / 2016-01-21
 ===================
